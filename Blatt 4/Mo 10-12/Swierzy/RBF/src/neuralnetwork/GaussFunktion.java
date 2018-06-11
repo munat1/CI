@@ -2,7 +2,7 @@ package neuralnetwork;
 
 import static java.lang.Math.exp;
 
-public class GaußFunktion implements TransferFunktion {
+public class GaussFunktion implements TransferFunktion {
 
     private double sigma = 1;
 

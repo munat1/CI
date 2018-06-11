@@ -54,7 +54,7 @@ public class Aufgabe4_3 {
         inputNeuronX2 = new InputNeuron(0d);
         hidden = new ArrayList<>(50);
         for (Point p : rbfKeys) {
-            RBFNeuron neuron = new RBFNeuron(new RBFsigma(), new GaußFunktion(), p.toVector());
+            RBFNeuron neuron = new RBFNeuron(new RBFsigma(), new GaussFunktion(), p.toVector());
             neuron.setWeights(weightsInner);
             hidden.add(neuron);
         }
@@ -167,13 +167,13 @@ public class Aufgabe4_3 {
     private static Point getNegativePoint(int u) {
         double x = 2 + Math.sin(0.2 * u - 8) * Math.sqrt(u + 10), y = -1 + Math.cos(0.2 * u - 8) * Math.sqrt(u + 10);
         double r = Math.sqrt(x*x+y*y);
-        return new Point(r, r==0?0:Math.acos(x / r));
+        return new Point(r, Math.atan2(y,x));
     }
 
     private static Point getPositivePoint(int u) {
         double x = 2 + Math.sin(0.2 * u + 8) * Math.sqrt(u + 10), y = -1 + Math.cos(0.2 * u + 8) * Math.sqrt(u + 10);
         double r = Math.sqrt(x*x+y*y);
-        return new Point(r, r==0?0:Math.acos(x / r));
+        return new Point(r, Math.atan2(y,x));
     }
 
 }

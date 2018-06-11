@@ -23,7 +23,8 @@ class rbf:
 
         distance = math.sqrt((self.z1-x1)**2+(self.z2-x2)**2)
         output = math.exp((-distance**2)/(2*self.variance**2))
-        self.output = output
+        self.output = output					
+		#hier sollte zum klssifizieren noch eine sigmoide fkt genutzt werden
         return output
 
 neurons = []

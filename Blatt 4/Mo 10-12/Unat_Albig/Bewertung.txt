@@ -1,0 +1,29 @@
+# Aufgabe 1
+
+korrekt: 0/3
+monotone Transferfkt: 0/1
+Test: 0/1
+
+Bemerkungen:
+- 
+
+# Aufgabe 2
+
+Datenpunkte visualisieren: 2/2
+RBF Init: 3/3
+RBF Training: 2/3
+Visualisierung Ausgabe: 2/2
+
+# Aufgabe 3
+
+Datenpunkte visualisieren: 1/2
+RBF Init/Training: 1/1
+Visualisierung Ausgabe: 1.5/2
+
+Bemerkungen:
+- Transferfunktion zum klasifizieren sollte immer eine sigmoide funktion und nicht die Identität sein
+- atan2 statt atan
+- visualisierung klappt hier so nicht ganz mit dem verbinden der punkte...
+
+
+# Gesamt: 12.5/20

@@ -1,0 +1,29 @@
+# Aufgabe 1
+
+korrekt: 3/3
+monotone Transferfkt: 0/1 #bzw bei dir die summenfkt
+Test: 1/1
+
+Bemerkungen:
+- 
+
+# Aufgabe 2
+
+Datenpunkte visualisieren: 2/2
+RBF Init: 3/3
+RBF Training: 2/3
+Visualisierung Ausgabe: 2/2
+
+# Aufgabe 3
+
+Datenpunkte visualisieren: 1/2
+RBF Init/Training: 1/1
+Visualisierung Ausgabe: 2/2
+
+Bemerkungen:
+- bitte keine umlaute/ß in klassennamen verwenden
+- bei acos für die polarkoordinaten hättest du noch eine fallunterscheidung mit y>0 / y<0 machen müssen
+- als transferfunktion beim klassifizieren kein lineares output neuron benutzen sondern lieber eine sigmoide transferfkt
+
+
+# Gesamt: 17/20

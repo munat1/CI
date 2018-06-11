@@ -1,0 +1,28 @@
+# Aufgabe 1
+
+korrekt: 3/3
+monotone Transferfkt: 0/1
+Test: 1/1
+
+Bemerkungen:
+- 
+
+# Aufgabe 2
+
+Datenpunkte visualisieren: 2/2
+RBF Init: 3/3
+RBF Training: 3/3
+Visualisierung Ausgabe: 2/2
+
+# Aufgabe 3
+
+Datenpunkte visualisieren: 1/2
+RBF Init/Training: 1/1
+Visualisierung Ausgabe: 1/2
+
+Bemerkungen:
+- Für die Polarkoordinaten wäre es schon schön gewesen die Plots 
+   auch mit in der pdf zu haben, wenn sie nicht automatisch generiert werden
+
+
+# Gesamt: 17/20

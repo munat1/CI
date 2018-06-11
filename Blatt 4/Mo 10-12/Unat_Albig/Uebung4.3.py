@@ -11,10 +11,10 @@ _x4 = [-1+math.cos(0.2*t-8)*math.sqrt(t+10) for t in u]
 _x3 = [2+math.sin(0.2*t -8)*math.sqrt(t+10) for t in u]
 
 x1 = [math.sqrt(_x1[t]**2+_x2[t]**2) for t in range(200)]
-x2 = [math.atan(_x2[t]/_x1[t]) for t in range(200)]
+x2 = [math.atan2(_x2[t],_x1[t]) for t in range(200)]
 
 x3 = [math.sqrt(_x3[t]**2+_x4[t]**2) for t in range(200)]
-x4= [math.atan(_x4[t]/_x3[t]) for t in range(200)]
+x4= [math.atan2(_x4[t],_x3[t]) for t in range(200)]
 
 class rbf:
     def __init__(self,z1,z2,variance):

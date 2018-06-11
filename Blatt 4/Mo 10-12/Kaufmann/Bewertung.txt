@@ -1,0 +1,27 @@
+# Aufgabe 1
+
+korrekt: 0/3
+monotone Transferfkt: 0/1
+Test: 0/1
+
+Bemerkungen:
+- 
+
+# Aufgabe 2
+
+Datenpunkte visualisieren: 1/2
+RBF Init: 0/3
+RBF Training: 0/3
+Visualisierung Ausgabe: 0/2
+
+# Aufgabe 3
+
+Datenpunkte visualisieren: 0/2
+RBF Init/Training: 0/1
+Visualisierung Ausgabe: 0/2
+
+Bemerkungen:
+- Das sind 2D Datenpunkte
+
+
+# Gesamt: 1/20

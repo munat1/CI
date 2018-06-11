@@ -52,7 +52,7 @@ public class Aufgabe4_2 {
         inputNeuronX2 = new InputNeuron(0d);
         hidden = new ArrayList<>(50);
         for (Point p : rbfKeys) {
-            RBFNeuron neuron = new RBFNeuron(new RBFsigma(), new GaußFunktion(), p.toVector());
+            RBFNeuron neuron = new RBFNeuron(new RBFsigma(), new GaussFunktion(), p.toVector());
             neuron.setWeights(weightsInner);
             hidden.add(neuron);
         }
