@@ -243,10 +243,10 @@ for j in range(20):
     for i in range(len(KGp)):
         x=KGp[i][0]
         f=KGp[i][1]
-        trainingPol(x,f)
+        training(x,f)
     
-x1=np.arange(-16,16.01,0.5)
-x2=np.arange(-16,16.01,0.5)
+x1=np.arange(0,16.01,0.5)
+x2=np.arange(-3,3.01,0.1)
 x11p=[]
 x12p=[]
 x22p=[]
@@ -263,15 +263,16 @@ for i in x1:
             x22p.append(j)
             
    
-# y1=[]
-# y2=[]
-# for i in range(len(centerArray)):
-#     y1.append(centerArray[i][0])
-#     y2.append(centerArray[i][1])
+y1=[]
+y2=[]
+for i in range(len(centerArray)):
+    y1.append(centerArray[i][0])
+    y2.append(centerArray[i][1])
      
 sub4=fig.add_subplot(2,2,4)
 sub4.scatter(x11p,x12p)
 sub4.scatter(x21p,x22p)
+sub2.scatter(y1,y2,c='m',marker="P")
 sub4.set_title('ausgabe polar')
 
     

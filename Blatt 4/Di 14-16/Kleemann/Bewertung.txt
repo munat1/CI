@@ -1,0 +1,29 @@
+# Aufgabe 1
+
+korrekt: 0/3
+monotone Transferfkt: 0/1
+Test: 0/1
+
+Bemerkungen:
+- 
+
+# Aufgabe 2
+
+Datenpunkte visualisieren: 2/2
+RBF Init: 3/3
+RBF Training: 1/3
+Visualisierung Ausgabe: 1.5/2
+
+# Aufgabe 3
+
+Datenpunkte visualisieren: 1.5/2
+RBF Init/Training: 1/1
+Visualisierung Ausgabe: 1/2
+
+Bemerkungen:
+- du hast die gaussfunktion in den RBFs nicht benutzt
+- Dein Training verstehe ich nicht ganz was dort passiert...
+- Deine Ausgaben sind sehr schwer lesbar -> niemals 3D Plots verwenden wenn 2D ausreicht
+
+
+# Gesamt: 11/20

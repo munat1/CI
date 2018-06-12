@@ -20,12 +20,8 @@ K2_X2=-1+np.cos(0.2*u-8)*np.sqrt(u+10)
 Y2=-1
 
 #Visualisierung der verschiedenen Datenpunkte
-plt.plot(u,K1_X1,'bx')
-plt.plot(u,K1_X2,'rx')
-plt.plot(u,K2_X1,'gx')
-plt.plot(u,K2_X2,'yx')
-plt.xlabel('u')
-plt.ylabel('f(u)')
+plt.plot(K1_X1,K1_X2,'bx')
+plt.plot(K2_X1,K2_X2,'yx')
 plt.show()
 
 #keine Zeit mehr für restliches Programm

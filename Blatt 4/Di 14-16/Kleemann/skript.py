@@ -46,9 +46,9 @@ k2_us = np.vectorize(klasse2_y)(us)
 
 # Polarkoordinaten: x1 = radius, x2 = winkel
 # Kartesische Koordinaten zu Polarkoordinaten
-#for i in range(len(k1_x1_us)):
-#	k1_x1_us[i], k1_x2_us[i] = to_polar(k1_x1_us[i], k1_x2_us[i])
-#	k2_x1_us[i], k2_x2_us[i] = to_polar(k2_x1_us[i], k2_x2_us[i])
+for i in range(len(k1_x1_us)):
+	k1_x1_us[i], k1_x2_us[i] = to_polar(k1_x1_us[i], k1_x2_us[i])
+	k2_x1_us[i], k2_x2_us[i] = to_polar(k2_x1_us[i], k2_x2_us[i])
 #############################################
 
 # NETZ

@@ -33,7 +33,7 @@ class RBF:
         self.deltas.append(np.zeros_like(self.input_weights))
 
     def plotGraph(self):
-        plt.ion()
+        #plt.ion()
         plt.figure()
         plt.plot(self.class_1_x1,self.class_1_x2, label ='Klasse 1')
         plt.plot(self.class_2_x1,self.class_2_x2, label ='Klasse 2')
@@ -86,7 +86,7 @@ class RBF:
                 delta = np.zeros_like(delta_i)
                 for i in range(25):
                     delta += deltas[i]
-                self.input_weights += delta
+                self.hidden_weights += delta
         test.plotGraph()
 test = RBF()
 test.train()

@@ -1,0 +1,27 @@
+# Aufgabe 1
+
+korrekt: /3
+monotone Transferfkt: /1
+Test: /1
+
+Bemerkungen:
+- bitte nochmal im Original zeigen und erklären
+
+# Aufgabe 2
+
+Datenpunkte visualisieren: 2/2
+RBF Init: 3/3
+RBF Training: 3/3
+Visualisierung Ausgabe: 2/2
+
+# Aufgabe 3
+
+Datenpunkte visualisieren: 2/2
+RBF Init/Training: .5/1
+Visualisierung Ausgabe: 1/2
+
+Bemerkungen:
+- Bei der polarkoordinaten variante klappt iwas nicht so ganz...
+
+
+# Gesamt: 13.5+x/20

@@ -119,7 +119,7 @@ def learn(it=500000):
 
 if debug:
     print("Start leanrning...")
-learn(it=300000)
+learn(it=30000)
 if debug:
     print("Outputweights after training :", outputweights)
 

@@ -1,0 +1,29 @@
+# Aufgabe 1
+
+korrekt: 0/3
+monotone Transferfkt: 0/1
+Test: 0/1
+
+Bemerkungen:
+- 
+
+# Aufgabe 2
+
+Datenpunkte visualisieren: 2/2
+RBF Init: 2/3
+RBF Training: 2/3
+Visualisierung Ausgabe: .5/2
+
+# Aufgabe 3
+
+Datenpunkte visualisieren: 0/2
+RBF Init/Training: 0/1
+Visualisierung Ausgabe: 0/2
+
+Bemerkungen:
+- Etwas mehr als komplett zufällig in der Ebene sollten die RBF Neuronen schon initialisiert werden
+- Zum klassifizieren sollte eine sigmoide fkt im output neuron verwendet werden
+- und iwie gibt es keine visualisierung der Ausgabe
+
+
+# Gesamt: 6.5/20

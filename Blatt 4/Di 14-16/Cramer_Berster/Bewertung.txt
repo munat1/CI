@@ -1,0 +1,30 @@
+# Aufgabe 1
+
+korrekt: 2.5/3
+monotone Transferfkt: 1/1
+Test: 1/1
+
+Bemerkungen:
+- Naja ein bisschen gefuscht hast du ja schon, weil du 16 statt 3 Neuronen benutzt hast, 
+   aber dafür gibt es einen Extrapunkt für die lernende Variante (+1)
+
+# Aufgabe 2
+
+Datenpunkte visualisieren: 2/2
+RBF Init: 2/3
+RBF Training: 1/3
+Visualisierung Ausgabe: .5/2
+
+# Aufgabe 3
+
+Datenpunkte visualisieren: 0/2
+RBF Init/Training: 0/1
+Visualisierung Ausgabe: 0/2
+
+Bemerkungen:
+- Etwas besser als zufällig in der Ebene sollten die RBF Neuronen schon initialisiert werden
+- Im output neuron sollte zum klssifizieren eine sigmoide fkt genutzt werden
+- ich blicke durch deine deltas nicht durch und bei der Zuweisung passt da auch iwas nicht
+
+
+# Gesamt: 11/20

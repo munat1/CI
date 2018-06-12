@@ -1,0 +1,29 @@
+# Aufgabe 1
+
+korrekt: 2.5/3
+monotone Transferfkt: 1/1
+Test: 1/1
+
+Bemerkungen:
+- Naja ein bisschen gefuscht hast du ja schon, weil du 16 statt 3 Neuronen benutzt hast, 
+   aber da ich vermute, dass das Programm ursprünglich nicht von dir kommt gibt es dafür keinen Extrapunkt.
+   Sollte dies falsch sein, melde dich nochmal bei mir
+
+# Aufgabe 2
+
+Datenpunkte visualisieren: 1/2
+RBF Init: 0/3
+RBF Training: 0/3
+Visualisierung Ausgabe: 0/2
+
+# Aufgabe 3
+
+Datenpunkte visualisieren: 0/2
+RBF Init/Training: 0/1
+Visualisierung Ausgabe: 0/2
+
+Bemerkungen:
+- wenn dann aber bitte auch richtig visualisieren ;)
+
+
+# Gesamt: 5.5/20
